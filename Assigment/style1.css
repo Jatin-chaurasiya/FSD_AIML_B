@@ -1,101 +1,35 @@
-
-.main-header {
-    background: #333;
-    padding: 10px 0;
-}
-.main-nav {
-    display: flex;
-    justify-content: flex-end;
-    align-items: center;
-}
-.nav-list {
-    list-style: none;
-    margin: 0;
-    padding: 0;
-}
-.nav-item {
-    display: inline-block;
-    margin: 0 15px;
-}
-.nav-link {
-    color: #fff;
-    text-decoration: none;
-    font-weight: bold;
-    font-size: 18px;
-    transition: color 0.3s;
-}
-.nav-link:hover {
-    color: #ff9800;
+body {
+  background: linear-gradient(45deg, #ff7e00, #ffae00);
+  min-height: 100vh;
+  margin: 0;
+  font-family: Arial, sans-serif;
 }
 
-.box {
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    grid-template-rows: 200px 600px 200px;
-    background-color: rgb(82, 152, 180);
-    gap: 10px;
-    padding: 10px;
+.album {
+  background: none !important;
 }
 
-.box1 {
-    display: grid;
-    height: 350px;
-    width: 300px;
-    grid-template-columns: repeat(2, 1fr);
-    grid-template-rows: repeat(2, 1fr);
-    background-color: #766584;
-    gap: 10px;
-    padding: 10px;
-    border-radius: 8px;
+.navbar-logo img {
+  height: 30px;
+  width: auto;
 }
 
-
-.box2,
-.box3{
-    height: 400px;
-    width: 300px;
-    border-radius: 8px;
+.container-fluid.p-0 {
+  margin-bottom: 0;
+  padding-bottom: 0;
 }
 
-.box2 {
-    background-color: rgb(39, 104, 137);
+.footer {
+  background-color: #131921;
+  color: white;
+  padding: 20px 0;
+  text-align: center;
+  font-size: 14px;
+  margin-top: auto;
 }
 
-.box3 {
-    background-color: aquamarine;
-}
-
-
-.box11, .box12, .box13, .box14 {
-    width: 120px;
-    display: flex;
-    flex-direction: column;   
-    justify-content: flex-start;
-    align-items: center;
-    overflow: hidden;
-    background-color: white;
-    padding: 5px;
-}
-
-
-.box11 img,
-.box12 img,
-.box13 img,
-.box14 img {
-    width: 100px;
-    height: 100px;
-    object-fit: cover;
-    border-radius: 5px;
-}
-
-
-.box11 p,
-.box12 p,
-.box13 p,
-.box14 p {
-    margin-top: 5px;
-    font-size: 13px;
-    font-weight: bold;
-    color: black;
-    text-align: center;
+.footer p:first-child {
+  background-color: #131921;
+  cursor: pointer;
+  font-weight: bold;
 }
